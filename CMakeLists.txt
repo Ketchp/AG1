@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.25)
+project(AG1)
+
+set(CMAKE_CXX_STANDARD 20)
+add_compile_options(-Wall -pedantic -Wno-long-long -g -O0)
+
+#add_executable(AG1_b src/BinarniHaldaI.cpp)
+#add_executable(AG1 src/BinarniHaldaII.cpp)
+#add_executable(AG1 src/AVLarray.cpp)
+#add_executable(AG1 src/AVLtree.cpp)
+add_executable(AG1 src/u3.cpp)
+#add_executable(AG1 src/mixin.cpp)
+#add_executable(AG1 src/MixinsKos.cpp)
+#add_executable(AG1 src/python.cpp)
+#add_executable(AG1 src/strom.cpp)
+#add_executable(AG1 src/tester_u2.cpp)
